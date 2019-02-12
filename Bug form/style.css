@@ -133,27 +133,26 @@ li a:hover{
 .licence {
 	margin-bottom: 10px;
 }
-
-.Attachments input{
-	height: 20px;
-	width: 75%;
-	border-top-left-radius: 4px;
-	border-bottom-left-radius: 4px; 
-	border: 1px solid gray;
-	padding: 4px;
+.fileAdd{
+	height: auto;
+	margin-bottom: 40px;
 }
 
-.Attachments button{
-	height: 30px;
-	width: 22%;
-	margin-left: -4px;
-	margin-top: -10px;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
-	border: 1px solid gray;
-	color: #ffffff;
-	font-weight: bold;
-	background-color: gray;
+#fileUpload {
+  display: block;
+  float: left;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  border: 1px solid gray;
+  color:#ffffff;
+  background-color: gray;
+  float:right;
+  padding: 10px;
 }
 
 #licence-center{
